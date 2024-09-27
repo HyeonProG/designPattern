@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StrategyTest",
+            "request": "launch",
+            "mainClass": "strategy.StrategyTest",
+            "projectName": "my_work_f3051c0c"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-DemoV1Application<demo_v1>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
