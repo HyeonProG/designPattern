@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MilkDecorator",
+            "request": "launch",
+            "mainClass": "decorator.MilkDecorator",
+            "projectName": "my_work_f3051c0c"
+        },
+        {
+            "type": "java",
+            "name": "MilkDecorator",
+            "request": "launch",
+            "mainClass": "adapter.MilkDecorator",
+            "projectName": "my_work_f3051c0c"
+        },
+        {
+            "type": "java",
             "name": "StrategyTest",
             "request": "launch",
             "mainClass": "strategy.StrategyTest",
