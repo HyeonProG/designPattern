@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "com.example.demo.DemoApplication"
+        },
+        {
+            "type": "java",
             "name": "MilkDecorator",
             "request": "launch",
             "mainClass": "decorator.MilkDecorator",
@@ -28,6 +34,16 @@
             "cwd": "${workspaceFolder}",
             "mainClass": "com.tenco.demo_v1.DemoV1Application",
             "projectName": "demo_v1",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.demo.DemoApplication",
+            "projectName": "demo",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
